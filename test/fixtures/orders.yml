@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  price: 
+  title: MyText
+  description: MyText
+  payment_id: 1
+
+two:
+  price: 
+  title: MyText
+  description: MyText
+  payment_id: 1
