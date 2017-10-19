@@ -1,25 +1,24 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Bangazon LTD - Tutshill Tornados
 
-Things you may want to cover:
+> This is an example file with default selections.
 
-* Ruby version
+## Software Versions
 
-* System dependencies
+```
+Ruby 2.4.2
+Rails 5.1.4
+Sqlite 3.20.1
+```
 
-* Configuration
+## Install
 
-* Database creation
+[Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+[Install Rails] (https://github.com/tbsvttr/install-ruby-and-rails)
 
-* Database initialization
+## Usage
 
-* How to run the test suite
+```
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# bangazon
+## Contribute
