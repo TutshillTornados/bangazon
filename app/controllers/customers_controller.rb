@@ -16,8 +16,7 @@ class CustomersController < ApplicationController
   # POST /customers
   def create
     @customer = Customer.new(customer_params)
-    # @customer = Customer.create(params.permit(:first_name))
-    # json_response(@customer)
+ 
     if @customer.save
       render json: @customer, status: :created, location: @customer
     else
