@@ -4,7 +4,6 @@ class PaymentTypesController < ApplicationController
   # GET /payment_types
   def index
     @payment_types = PaymentType.all
-
     render json: @payment_types
   end
 

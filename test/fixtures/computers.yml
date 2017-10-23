@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  employee_id: 1
+  decom_date: 2017-10-23 14:45:08
+  purchase_date: 2017-10-23 14:45:08
+  dept_id: 1
+
+two:
+  employee_id: 1
+  decom_date: 2017-10-23 14:45:08
+  purchase_date: 2017-10-23 14:45:08
+  dept_id: 1
