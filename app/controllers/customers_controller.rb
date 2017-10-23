@@ -34,9 +34,9 @@ class CustomersController < ApplicationController
   end
 
   # DELETE /customers/1
-  def destroy
-    @customer.destroy
-  end
+  # def destroy
+  #   @customer.destroy
+  # end
 
   private
     # Use callbacks to share common setup or constraints between actions.
