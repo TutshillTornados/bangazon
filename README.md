@@ -13,7 +13,7 @@ Sqlite 3.20.1
 ## Install
 
 [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-[Install Rails] (https://github.com/tbsvttr/install-ruby-and-rails)
+[Install Rails](https://github.com/tbsvttr/install-ruby-and-rails)
 
 ## Usage
 
