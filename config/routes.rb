@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   resources :products
   resources :product_types
   resources :customers
+  # get ':customers(/:active_status)', to:':customer/active'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
