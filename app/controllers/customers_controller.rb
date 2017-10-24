@@ -5,7 +5,8 @@ class CustomersController < ApplicationController
   def index
 
     if params[:active_status] == "false"
-    @customers = Customer.where("active_status = ?", params[:active_status] == false)
+    # @customers = Customer.where("active_status = ?", params[:active_status] == false)
+    @customers = Customer.where(active_status: false)
     render json: @customers
   else
     @customers = Customer.all
@@ -18,10 +19,6 @@ end
   def show
     render json: @customer
   end
-
-  # def active
-  #   render json: @customer.where(active_status: false)
-  # end
 
   # POST /customers
   def create
