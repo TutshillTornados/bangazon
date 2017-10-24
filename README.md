@@ -30,7 +30,7 @@ If you would like to run this api on your local machine, these installation tips
 
 * [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 * [Install Rails](https://github.com/tbsvttr/install-ruby-and-rails)
-* [Install MySQL] (https://www.mysql.com/downloads/) or install with homebrew
+* [Install MySQL](https://www.mysql.com/downloads/) or install with homebrew
 
 ```
 brew update
