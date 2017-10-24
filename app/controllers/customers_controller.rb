@@ -1,17 +1,27 @@
 class CustomersController < ApplicationController
-  before_action :set_customer, only: [:show, :update, :destroy]
+  before_action :set_customer, only: [:show, :update, :destroy, :active]
 
   # GET /customers
   def index
+
+    if params[:active_status] == "false"
+    @customers = Customer.where("active_status = ?", params[:active_status] == false)
+    render json: @customers
+  else
     @customers = Customer.all
 
     render json: @customers
   end
+end
 
   # GET /customers/1
   def show
     render json: @customer
   end
+
+  # def active
+  #   render json: @customer.where(active_status: false)
+  # end
 
   # POST /customers
   def create
