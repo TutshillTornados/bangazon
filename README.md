@@ -2,15 +2,15 @@
 
 API for Bangazon built using Ruby on Rails framework application.
 This API exposes the following resources:
-* [Customer] (https://github.com/TutshillTornados/bangazon/blob/master/customer.md)
-* [Order] (https://github.com/TutshillTornados/bangazon/blob/master/order.md)
-* [Product] (https://github.com/TutshillTornados/bangazon/blob/master/product.md)
-* [Department] (https://github.com/TutshillTornados/bangazon/blob/master/department.md)
-* [Computer] (https://github.com/TutshillTornados/bangazon/blob/master/computer.md)
-* [Training Program] (https://github.com/TutshillTornados/bangazon/blob/master/training_program.md)
-* [Product Type] (https://github.com/TutshillTornados/bangazon/blob/master/product_type.md)
-* [Payment Type] (https://github.com/TutshillTornados/bangazon/blob/master/payment_type.md)
-* [Employee] (https://github.com/TutshillTornados/bangazon/blob/master/employee.md)
+* [Customer](https://github.com/TutshillTornados/bangazon/blob/master/customer.md)
+* [Order](https://github.com/TutshillTornados/bangazon/blob/master/order.md)
+* [Product](https://github.com/TutshillTornados/bangazon/blob/master/product.md)
+* [Department](https://github.com/TutshillTornados/bangazon/blob/master/department.md)
+* [Computer](https://github.com/TutshillTornados/bangazon/blob/master/computer.md)
+* [Training Program](https://github.com/TutshillTornados/bangazon/blob/master/training_program.md)
+* [Product Type](https://github.com/TutshillTornados/bangazon/blob/master/product_type.md)
+* [Payment Type](https://github.com/TutshillTornados/bangazon/blob/master/payment_type.md)
+* [Employee](https://github.com/TutshillTornados/bangazon/blob/master/employee.md)
 
 
 ## API Structure
