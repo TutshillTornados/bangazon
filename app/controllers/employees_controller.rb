@@ -1,3 +1,6 @@
+# Allows functionality to GET, POST, and PATCH rows from Employees table.
+
+
 class EmployeesController < ApplicationController
   before_action :set_employee, only: [:show, :update, :destroy]
 

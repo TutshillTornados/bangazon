@@ -1,3 +1,6 @@
+# Allows functionality to GET, POST, PATCH, and DELETE rows from Training_programs table. Training_programs cannot be deleted if start date has already occurred. 
+
+
 class TrainingProgramsController < ApplicationController
   before_action :set_training_program, only: [:show, :update, :destroy]
 

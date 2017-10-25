@@ -1,3 +1,6 @@
+# Allows functionality to GET, POST, and PATCH rows from Departments table.
+
+
 class DepartmentsController < ApplicationController
   before_action :set_department, only: [:show, :update, :destroy]
 
@@ -33,10 +36,6 @@ class DepartmentsController < ApplicationController
     end
   end
 
-  # DELETE /departments/1
-  # def destroy
-  #   @department.destroy
-  # end
 
   private
     # Use callbacks to share common setup or constraints between actions.
