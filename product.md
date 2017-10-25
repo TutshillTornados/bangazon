@@ -3,6 +3,8 @@
 ## GET
 
 A GET request with the following url (http://bangazon.com:3000/products) will return the following data format:
+
+```
 [
   {
     "id": 1,
@@ -15,6 +17,7 @@ A GET request with the following url (http://bangazon.com:3000/products) will re
     "updated_at": "2017-10-23T20:33:35.000Z"
   }
 ]
+```
 There are various methods that are supported through this entity:
 
 ## POST

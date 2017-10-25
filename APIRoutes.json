@@ -6,8 +6,8 @@
     "product": "http://bangazon.com/products",
     "department": "http://bangazon.com/departments",
     "computer": "http://bangazon.com/computers",
-    "training-program":"http://bangazon.com/training-programs",
-    "product-type":"http://bangazon.com/product-types",
-    "payment-type":"http://bangazon.com/payment-types",
+    "training-program":"http://bangazon.com/training_programs",
+    "product-type":"http://bangazon.com/product_types",
+    "payment-type":"http://bangazon.com/payment_types",
     "employee":"http://bangazon.com/employees"
 }

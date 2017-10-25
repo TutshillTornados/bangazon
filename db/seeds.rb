@@ -28,6 +28,16 @@ Order.create!([
   {payment_id: 3, customer_id: 3, price: 33.67},
   {payment_id: 4, customer_id: 4, price: 66.88}
 ])
+Product.create!([
+  {type_id: 4, customer_id: 4, price: 300.0, title: "Spacely Sprockets", description: "Space stuff"},
+  {type_id: 5, customer_id: 3, price: 30.0, title: "Hat", description: "Greatest hat of all time"},
+  {type_id: 2, customer_id: 1, price: 3000000.0, title: "Stary Night", description: "Don't cutt off ears man"},
+  {type_id: 3, customer_id: 2, price: 4000000000.0, title: "Matt's Dignity", description: "He needs MONEY"},
+  {type_id: 4, customer_id: 2, price: 40000.0, title: "Car", description: "VROOM VROOM ZOOM"},
+  {type_id: 5, customer_id: 1, price: 400.0, title: "Propeller Hat", description: "Brrrrrrr"},
+  {type_id: 2, customer_id: 3, price: 6.0e+17, title: "Daniel", description: "He'll do it"},
+  {type_id: 3, customer_id: 4, price: 14.0, title: "Head (and other) shaving cream", description: "KEEP YA SMOOTH LIKE A BABY'S BOTTOM"}
+])
 OrderProduct.create!([
   {product_id: 1, order_id: 1},
   {product_id: 3, order_id: 2},
