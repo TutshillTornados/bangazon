@@ -18,7 +18,7 @@ To get started, navigate to the directory of your choice and run the following c
 git clone https://github.com/TutshillTornados/bangazon.git
 cd bangazon
 ```
-Because this API only allows requests from bangazon.com, run the following in your command line to alias your localhost.
+Because this API only allows requests from bangazon.com, run the following in your command line to alias your IP.
 ```
 sudo -- sh -c -e "echo '127.0.0.1       bangazon.com' >> etc/hosts"
 ```
@@ -134,13 +134,13 @@ rails s
 Visit localhost:3000 in web browser for Rails page
 
 ## Contribute
-Fork this repository and submit your contributions as a pull request.
+Fork this repository and submit your contributions as a [pull request](https://github.com/TutshillTornados/bangazon/blob/master/PULL_REQUEST_TEMPLATE.md) using the PR template.
 
 ## Report Bugs
-Create an issue report
+Create an [issue report](https://github.com/TutshillTornados/bangazon/issues/new)
 
 ## Meet the Dev Team
-[Austin Kurtis](https://github.com/austinKurtis)
-[Daniel Greene](https://github.com/danielgreene101)
-[Matt Minner](https://github.com/Mminner4248)
-[Dr. Teresa Vasquez](https://github.com/drteresavasquez)
+- [Austin Kurtis](https://github.com/austinKurtis)
+- [Daniel Greene](https://github.com/danielgreene101)
+- [Matt Minner](https://github.com/Mminner4248)
+- [Dr. Teresa Vasquez](https://github.com/drteresavasquez)
