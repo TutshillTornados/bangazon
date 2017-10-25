@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :order_products
   resources :training_programs
   resources :computers
   resources :departments
