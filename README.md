@@ -1,6 +1,6 @@
 # Bangazon LTD API - Tutshill Tornados
 
-> API for Bangazon built using Ruby on Rails framework application.
+API for Bangazon built using Ruby on Rails framework application.
 This API exposes the following resources:
 * Customer
 * Order
@@ -16,15 +16,15 @@ This API exposes the following resources:
 ## API Structure
 ```
 {
-    "customer": "http://bangazon.com/customers", 
-    "order": "http://bangazon.com/orders", 
-    "product": "http://bangazon.com/products",
-    "department": "http://bangazon.com/departments",
-    "computer": "http://bangazon.com/computers",
-    "training-program":"http://bangazon.com/training-programs",
-    "product-type":"http://bangazon.com/product-types",
-    "payment-type":"http://bangazon.com/payment-types",
-    "employee":"http://bangazon.com/employees"
+    "customer": "localhost:3000/customers", 
+    "order": "localhost:3000/orders", 
+    "product": "localhost:3000/products",
+    "department": "localhost:3000/departments",
+    "computer": "localhost:3000/computers",
+    "training-program":"localhost:3000/training-programs",
+    "product-type":"localhost:3000/product-types",
+    "payment-type":"localhost:3000/payment-types",
+    "employee":"localhost:3000/employees"
 }
 ```
 
