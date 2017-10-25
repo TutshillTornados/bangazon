@@ -1,14 +1,20 @@
 Customer.create!([
-  {first_name: "Daniel", last_name: "Greene", active_status: nil},
-  {first_name: "Austin", last_name: "Kurtis", active_status: nil},
-  {first_name: "Teresa", last_name: "V.", active_status: nil},
-  {first_name: "Matt", last_name: "Minner", active_status: nil}
+  {first_name: "Daniel", last_name: "Greene", active_status: true},
+  {first_name: "Austin", last_name: "Kurtis", active_status: true},
+  {first_name: "Teresa", last_name: "V.", active_status: false},
+  {first_name: "Matt", last_name: "Minner", active_status: true}
 ])
 Order.create!([
   {payment_id: 1, customer_id: 1, price: 4.99},
   {payment_id: 2, customer_id: 2, price: 33.99},
   {payment_id: 3, customer_id: 3, price: 33.67},
   {payment_id: 4, customer_id: 4, price: 66.88}
+])
+OrderProduct.create!([
+  {product_id: 1, order_id: 1},
+  {product_id: 3, order_id: 2},
+  {product_id: 4, order_id: 1},
+  {product_id: 3, order_id: 1}
 ])
 PaymentType.create!([
   {type_name: "MASTERCARD"},
