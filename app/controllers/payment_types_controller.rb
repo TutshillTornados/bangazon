@@ -1,3 +1,6 @@
+# Allows functionality to GET, POST, PATCH, and DELETE rows from Payment_types table.
+
+
 class PaymentTypesController < ApplicationController
   before_action :set_payment_type, only: [:show, :update, :destroy]
 

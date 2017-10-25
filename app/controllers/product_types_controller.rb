@@ -1,3 +1,6 @@
+# Allows functionality to GET, POST, PATCH, and DELETE rows from product_types table.
+
+
 class ProductTypesController < ApplicationController
   before_action :set_product_type, only: [:show, :update, :destroy]
 

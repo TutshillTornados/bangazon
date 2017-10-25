@@ -1,3 +1,6 @@
+# Allows functionality to GET, POST, PATCH, and DELETE rows from Order_products table.
+
+
 class OrderProductsController < ApplicationController
   before_action :set_order_product, only: [:show, :update, :destroy]
 

@@ -1,3 +1,5 @@
+# Allows functionality to GET, POST, PATCH, and DELETE rows from Computer table.
+
 class ComputersController < ApplicationController
   before_action :set_computer, only: [:show, :update, :destroy]
 
