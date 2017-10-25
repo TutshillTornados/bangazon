@@ -12,6 +12,16 @@ This API exposes the following resources:
 * [Payment Type](https://github.com/TutshillTornados/bangazon/blob/master/payment_type.md)
 * [Employee](https://github.com/TutshillTornados/bangazon/blob/master/employee.md)
 
+## Get Started
+To get started, navigate to the directory of your choice and run the following code in the command line
+```
+git clone https://github.com/TutshillTornados/bangazon.git
+cd bangazon
+```
+Because this API only allows requests from bangazon.com, run the following in your command line to alias your localhost.
+```
+sudo -- sh -c -e "echo '127.0.0.1       bangazon.com' >> etc/hosts"
+```
 
 ## API Structure
 ```
@@ -50,17 +60,65 @@ If you would like to run this api on your local machine, these installation tips
 ```
 brew update
 brew install mysql
+```
+After mySQL installs, run the following command:
+```
 mysql_secure_installation
 ```
+You will be prompted to answer a series of questions (recommended answers: n, y, y, y, y)
 
+**NOTE:** If you recieve the following error...
+```
+Error: Can’t connect to local MySQL server through socket ‘/tmp/mysql.sock’ (2)
+```
+Stop the mySQL Sever and restart it using the following commands:
+STOP
+```
+mysqld stop
+```
+START
+```
+mysql.server start
+```
 ## Setup Database
-
+In consle, run the following code to setup the database
 ```
 mysql -uroot -p
+```
+Enter the password you created when you setup mysql
+
+Now, you will be inside the mySQL CLI. You should see something similar to the following:
+```
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 5
+Server version: 5.7.20 Homebrew
+
+Copyright (c) 2000, 2017, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+```
+Create the Development DB
+```
 CREATE DATABASE Bangazon_development;
+```
+Create the Testing DB
+```
 CREATE DATABASE Bangazon_testing;
+```
+Grant privileges to development DB by setting a user and a password. User: tornados_user PW: ruby
+```
 GRANT ALL PRIVILEGES ON Bangazon_development.* TO 'tornados_user'@'localhost' IDENTIFIED BY 'ruby';
+```
+Grant privileges to testing DB by setting a user and a password. User: tornados_user PW: ruby
+```
 GRANT ALL PRIVILEGES ON Bangazon_testing.* TO 'tornados_user'@'localhost' IDENTIFIED BY 'ruby';
+```
+Exit the mySQL CLI
+```
 exit
 ```
 
@@ -82,7 +140,7 @@ Fork this repository and submit your contributions as a pull request.
 Create an issue report
 
 ## Meet the Dev Team
-[Austin Kurtis] (https://github.com/austinKurtis)
-[Daniel Greene] (https://github.com/danielgreene101)
-[Matt Minner] (https://github.com/Mminner4248)
-[Dr. Teresa Vasquez] (https://github.com/drteresavasquez)
+[Austin Kurtis](https://github.com/austinKurtis)
+[Daniel Greene](https://github.com/danielgreene101)
+[Matt Minner](https://github.com/Mminner4248)
+[Dr. Teresa Vasquez](https://github.com/drteresavasquez)
