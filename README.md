@@ -17,6 +17,9 @@ To get started, navigate to the directory of your choice and run the following c
 ```
 git clone https://github.com/TutshillTornados/bangazon.git
 cd bangazon
+```
+Because this API only allows requests from bangazon.com, run the following in your command line to alias your localhost.
+```
 sudo -- sh -c -e "echo '127.0.0.1       bangazon.com' >> etc/hosts"
 ```
 
