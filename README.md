@@ -24,6 +24,7 @@ sudo -- sh -c -e "echo '127.0.0.1       bangazon.com' >> etc/hosts"
 ```
 
 ## API Structure
+A simple get to the document root will respond with an object that specifies the paths to entity data as seen below.
 ```
 {
     "customer": "localhost:3000/customers", 
