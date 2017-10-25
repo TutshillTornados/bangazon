@@ -1,8 +1,26 @@
+Computer.create!([
+  {employee_id: 4, decom_date: "2015-01-01 00:00:00", purchase_date: "2012-12-12 00:00:00", dept_id: 4},
+  {employee_id: 3, decom_date: "2015-05-01 00:00:00", purchase_date: "2012-12-05 00:00:00", dept_id: 3}
+])
 Customer.create!([
   {first_name: "Daniel", last_name: "Greene", active_status: true},
   {first_name: "Austin", last_name: "Kurtis", active_status: true},
   {first_name: "Teresa", last_name: "V.", active_status: false},
   {first_name: "Matt", last_name: "Minner", active_status: true}
+])
+Department.create!([
+  {expense_budget: 30000.0, employee_id: 3, department_name: "customer survice"},
+  {expense_budget: 456763.0, employee_id: 2, department_name: "Tech"}
+])
+Product.create!([
+  {type_id: 4, customer_id: 4, price: 300.0, title: "Spacely Sprockets", description: "Space stuff"},
+  {type_id: 5, customer_id: 3, price: 30.0, title: "Hat", description: "Greatest hat of all time"},
+  {type_id: 2, customer_id: 1, price: 3000000.0, title: "Stary Night", description: "Don't cutt off ears man"},
+  {type_id: 3, customer_id: 2, price: 4000000000.0, title: "Matt's Dignity", description: "He needs MONEY"},
+  {type_id: 4, customer_id: 2, price: 40000.0, title: "Car", description: "VROOM VROOM ZOOM"},
+  {type_id: 5, customer_id: 1, price: 400.0, title: "Propeller Hat", description: "Brrrrrrr"},
+  {type_id: 2, customer_id: 3, price: 6.0e+17, title: "Daniel", description: "He'll do it"},
+  {type_id: 3, customer_id: 4, price: 14.0, title: "Head (and other) shaving cream", description: "KEEP YA SMOOTH LIKE A BABY'S BOTTOM"}
 ])
 Order.create!([
   {payment_id: 1, customer_id: 1, price: 4.99},

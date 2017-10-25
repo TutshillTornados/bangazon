@@ -30,7 +30,3 @@ http://bangazon.com:3000/employees
 To update an employee (object) structured like the format given above, first make a GET request with the provided url - 
 http://bangazon.com:3000/employees/[id]
 Then make the changes to the data, followed by a patch request to the same link as you pulled form.
-
-## DELETE
-To delete an employee (object) in your database, simply find the ID of the given data, then make a delete request with the following url -
-http://bangazon.com:3000/employees/[id]
