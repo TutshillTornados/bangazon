@@ -12,6 +12,16 @@ Department.create!([
   {expense_budget: 30000.0, employee_id: 3, department_name: "customer survice"},
   {expense_budget: 456763.0, employee_id: 2, department_name: "Tech"}
 ])
+Product.create!([
+  {type_id: 4, customer_id: 4, price: 300.0, title: "Spacely Sprockets", description: "Space stuff"},
+  {type_id: 5, customer_id: 3, price: 30.0, title: "Hat", description: "Greatest hat of all time"},
+  {type_id: 2, customer_id: 1, price: 3000000.0, title: "Stary Night", description: "Don't cutt off ears man"},
+  {type_id: 3, customer_id: 2, price: 4000000000.0, title: "Matt's Dignity", description: "He needs MONEY"},
+  {type_id: 4, customer_id: 2, price: 40000.0, title: "Car", description: "VROOM VROOM ZOOM"},
+  {type_id: 5, customer_id: 1, price: 400.0, title: "Propeller Hat", description: "Brrrrrrr"},
+  {type_id: 2, customer_id: 3, price: 6.0e+17, title: "Daniel", description: "He'll do it"},
+  {type_id: 3, customer_id: 4, price: 14.0, title: "Head (and other) shaving cream", description: "KEEP YA SMOOTH LIKE A BABY'S BOTTOM"}
+])
 Order.create!([
   {payment_id: 1, customer_id: 1, price: 4.99},
   {payment_id: 2, customer_id: 2, price: 33.99},
@@ -28,16 +38,6 @@ PaymentType.create!([
   {type_name: "MASTERCARD"},
   {type_name: "VISA"},
   {type_name: "ACH"}
-])
-Product.create!([
-  {type_id: 4, customer_id: 4, price: 300.0, title: "Spacely Sprockets", description: "Space stuff"},
-  {type_id: 5, customer_id: 3, price: 30.0, title: "Hat", description: "Greatest hat of all time"},
-  {type_id: 2, customer_id: 1, price: 3000000.0, title: "Stary Night", description: "Don't cutt off ears man"},
-  {type_id: 3, customer_id: 2, price: 4000000000.0, title: "Matt's Dignity", description: "He needs MONEY"},
-  {type_id: 4, customer_id: 2, price: 40000.0, title: "Car", description: "VROOM VROOM ZOOM"},
-  {type_id: 5, customer_id: 1, price: 400.0, title: "Propeller Hat", description: "Brrrrrrr"},
-  {type_id: 2, customer_id: 3, price: 6.0e+17, title: "Daniel", description: "He'll do it"},
-  {type_id: 3, customer_id: 4, price: 14.0, title: "Head (and other) shaving cream", description: "KEEP YA SMOOTH LIKE A BABY'S BOTTOM"}
 ])
 ProductType.create!([
   {prod_type: "Artwork", description: "Wow such art. Many paints"},
