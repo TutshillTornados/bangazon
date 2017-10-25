@@ -1,6 +1,6 @@
 # Bangazon LTD API - Tutshill Tornados
 
-> API for Bangazon built using Ruby on Rails framework application.
+API for Bangazon built using Ruby on Rails framework application.
 This API exposes the following resources:
 * Customer
 * Order
