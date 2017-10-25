@@ -7,7 +7,7 @@ This API exposes the following resources:
 * [Product](https://github.com/TutshillTornados/bangazon/blob/master/product.md)
 * [Department](https://github.com/TutshillTornados/bangazon/blob/master/department.md)
 * [Computer](https://github.com/TutshillTornados/bangazon/blob/master/computer.md)
-* [Training Program](https://github.com/TutshillTornados/bangazon/blob/master/training_program.md)
+* [Training Program](https://github.com/TutshillTornados/bangazon/blob/master/training_programs.md)
 * [Product Type](https://github.com/TutshillTornados/bangazon/blob/master/product_type.md)
 * [Payment Type](https://github.com/TutshillTornados/bangazon/blob/master/payment_type.md)
 * [Employee](https://github.com/TutshillTornados/bangazon/blob/master/employee.md)
