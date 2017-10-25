@@ -3,6 +3,7 @@
 ## GET
 
 A GET request with the following url (http://bangazon.com:3000/orders) will return the following data format:
+
 ```
 [
   {
@@ -15,6 +16,7 @@ A GET request with the following url (http://bangazon.com:3000/orders) will retu
   }
 ]
 ```
+
 There are various methods that are supported through this entity:
 
 ## POST

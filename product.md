@@ -3,6 +3,7 @@
 ## GET
 
 A GET request with the following url (http://bangazon.com:3000/products) will return the following data format:
+
 ```
 [
   {

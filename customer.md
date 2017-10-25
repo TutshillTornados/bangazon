@@ -3,6 +3,7 @@
 ## GET
 
 A GET request with the following url (http://bangazon.com:3000/customers) will return the following data format:
+
 ```
 [
   {
@@ -14,6 +15,7 @@ A GET request with the following url (http://bangazon.com:3000/customers) will r
   "updated_at": "2017-10-23T20:33:35.000Z"
 }
 ]
+
 ```
 There are various methods that are supported through this entity:
 
